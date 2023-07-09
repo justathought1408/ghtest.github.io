@@ -7,6 +7,7 @@ btn.addEventListenter("submit", () => {
 		one: document.querySelector("input.one").value;
 		two: document.querySelector("input.two").value;
 		three: document.querySelector("input.three").value;
-	}
-	tg.sendData(JSON.stringify(data))
+	};
+	tg.close();
+	tg.sendData(JSON.stringify(data));
 })
