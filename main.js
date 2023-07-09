@@ -8,6 +8,6 @@ btn.addEventListener("click", () => {
 		two: document.querySelector("input.two").value,
 		three: document.querySelector("input.three").value,
 	};
-	tg.close();
 	tg.sendData(JSON.stringify(data));
+	tg.close();
 })
