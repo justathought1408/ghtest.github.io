@@ -2,7 +2,7 @@ let tg = window.Telegram.WebApp;
 
 let btn = document.querySelector("button");
 
-btn.addEventListenter("click", () => {
+btn.addEventListener("click", () => {
 	let data = {
 		one: document.querySelector("input.one").value,
 		two: document.querySelector("input.two").value,
